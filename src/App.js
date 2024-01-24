@@ -9,15 +9,17 @@ function App() {
   return (
     <div className="App">
       <h1 className="text-center text-4xl text-blue-500 hover:text-blue-400 hover:cursor-pointer">Snap Shop CRUD</h1>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<ProductList />}></Route>
           <Route path='/product/create' element={<CreateProduct />}></Route>
           <Route path='/product/detail/:productid' element={<ProductDetails />}></Route>
           <Route path='/product/edit/:productid' element={<EditProduct />}></Route>
         </Routes>
-      </BrowserRouter>
-    <Apicall />
+      </BrowserRouter> */}
+
+      
+  <Apicall />
     </div>
   );
 
