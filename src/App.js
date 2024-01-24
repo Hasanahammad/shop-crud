@@ -17,6 +17,7 @@ function App() {
           <Route path='/product/edit/:productid' element={<EditProduct />}></Route>
         </Routes>
       </BrowserRouter>
+    <Apicall />
     </div>
   );
 
